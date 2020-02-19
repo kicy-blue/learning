@@ -1,0 +1,131 @@
+.intelligence-page {
+	.suffixBox{
+		display: flex;
+		&-icon{
+			line-height: 44px;
+			position: relative;
+			    left: -25px;
+		}
+	}
+
+		background: #fff;
+
+		p,
+		h5 {
+			margin: 0;
+		}
+		.text{
+			&-red{
+				color: red;
+			}
+			&-title{
+				margin-bottom: 8px;
+			}
+		}
+
+		.header {
+			width: 100%;
+			height: 150px;
+			background: #FF0015;
+		}
+		.body{
+			position: relative;
+			top: -130px;
+			// min-height: 500px;
+			// height: calc(100vh - 110px);
+			// overflow: hidden;
+		}
+
+		.info {
+			padding: 10px;
+			    z-index: 99;
+			    background: #fff;
+			    width: 85%;
+			    margin: 0 auto;
+			    border-radius: 20px;
+			    border: 1px solid #f5f2f2;
+
+			&-top {
+				// height: 50px;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+
+				img {
+					width: 50px;
+					height: 30px;
+				}
+
+				h5 {
+					font-size: 18px;
+					font-weight: bolder;
+				}
+				
+
+			}
+
+			p {
+				text-align: center;
+				    width: 60%;
+				    white-space: nowrap;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    margin: 0 auto;
+				    padding-top: 3px;
+			}
+
+			&-main {
+				margin-top: 20px;
+				font-size: 16px;
+
+				&-item {
+					text-align: center;
+					i{
+						    display: inline-block;
+						    width: 23px;
+						    height: 23px;
+						    border-radius: 23px;
+						    border: 1px solid;
+						    background: red;
+						    color: #fff;
+							line-height: 23px;
+					}
+				}
+			}
+		}
+		.content{
+			margin-top: 16px;
+			&-tips{
+				color: red; text-align: center;
+			}
+			&-chart{
+				position: relative;
+				// top: -100px;
+			}
+			&-main{
+				position: relative;
+				// top: -170px;
+				&-item {
+					text-align: center;
+					}
+			}
+		}
+		.van-button--large {
+			border-radius: 50px;
+		}
+		
+		.btnBox {
+			z-index: 999;
+			padding: 10px 0;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			background: #fff;
+		
+			&-item {
+				width: 70%;
+				margin-left: 15%;
+			}
+		
+		}
+	}

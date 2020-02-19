@@ -1,0 +1,57 @@
+body{
+    font-size: 14px !important;
+    width: 100%;
+    overflow-x: hidden;
+}
+*{
+    
+    font-family:"Microsoft YaHei", Arial,sans-serif;
+}
+a{
+    color: #333;
+}
+.u-color-gray{
+    color: #8C8B8B;
+}
+.u-bg-gray{
+    background-color: #8C8B8B;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.goods-tag{
+    margin-right: 8px;
+}
+.size-s{
+    font-size: 12px;
+}
+.align-r{
+    text-align: right;
+}
+.c-danger{
+    color: #FF0015;
+}
+.c-success{
+    color: #07c160;
+}
+.round-item{
+    border-radius: 5px;
+    overflow: hidden;
+}
+/* 样式重置 */
+.van-icon{
+    vertical-align: -2px;
+}
+.van-nav-bar .van-icon{
+    color: rgb(150, 151, 153);
+    font-size: 24px;
+}
+.van-tag{
+    margin-right: 5px;
+}
